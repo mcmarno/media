@@ -1,3 +1,7 @@
+<div class="header-top-area">
+    <img width="2000" src="images/head.jpg">
+</div>
+
     <div class="mobile-menu-area">
         <div class="container">
             <div class="row">
@@ -19,7 +23,7 @@
                                 </li>
                                 <li><a href="about.php">About me</a>
                                 </li>
-                                <li><a href="login.php">Logout</a>
+                                <li><a href="logout.php">Logout</a>
                                 </li>
                             </ul>
                         </nav>

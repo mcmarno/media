@@ -76,15 +76,7 @@ if($_SESSION['level']!="admin") {
         <![endif]-->
     <!-- Start Header Top Area -->
     <div class="header-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="logo-area">
-                        <a href="#"><img src="img/a.png" alt="" /></a>
-                    </div>
-                </div>    
-            </div>
-        </div>
+        <img width="2000" height="50" src="images/head.jpg">
     </div>
     <!-- End Header Top Area -->
     <!-- Mobile Menu start -->
@@ -107,7 +99,7 @@ if($_SESSION['level']!="admin") {
                                 </li>
                                 <li><a href="users.php">Users</a>
                                 </li>
-                                <li><a href="about.html">About me</a>
+                                <li><a href="about.php">About me</a>
                                 </li>
                                 <li><a href="logout.php">Logout</a>
                                 </li>
@@ -137,7 +129,7 @@ if($_SESSION['level']!="admin") {
                         </li>
                         <li><a href="users.php"><i class="fa fa-users"></i> Users</a>
                         </li>
-                        <li><a href="about.html"><i class="fa fa-eye"></i> About me</a>
+                        <li><a href="about.php"><i class="fa fa-eye"></i> About me</a>
                         </li>
                         <li><a href="logout.php"><i class="fa fa-close"></i> Logout</a>
                         </li>

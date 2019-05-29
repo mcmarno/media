@@ -100,16 +100,8 @@ if ($data_nomer) {
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Start Header Top Area -->
-    <div class="header-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="logo-area">
-                        <a href="#"><img src="img/a.png" alt="" /></a>
-                    </div>
-                </div>    
-            </div>
-        </div>
+    <<div class="header-top-area">
+        <img width="2000" height="50" src="images/head.jpg">
     </div>
     <!-- End Header Top Area -->
     <!-- Mobile Menu start -->
@@ -132,7 +124,7 @@ if ($data_nomer) {
                                 </li>
                                 <li><a href="users.php">Users</a>
                                 </li>
-                                <li><a href="about.html">About me</a>
+                                <li><a href="about.php">About me</a>
                                 </li>
                                 <li><a href="logout.php">Logout</a>
                                 </li>
@@ -162,7 +154,7 @@ if ($data_nomer) {
                         </li>
                         <li><a href="users.php"><i class="fa fa-users"></i> Users</a>
                         </li>
-                        <li><a href="about.html"><i class="fa fa-eye"></i> About me</a>
+                        <li><a href="about.php"><i class="fa fa-eye"></i> About me</a>
                         </li>
                         <li><a href="logout.php"><i class="fa fa-close"></i> Logout</a>
                         </li>

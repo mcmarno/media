@@ -1,3 +1,7 @@
+<div class="header-top-area">
+    <img width="2000" height="50" src="images/head.jpg">
+</div>
+
 <div class="mobile-menu-area">
             <div class="container">
                 <div class="row">

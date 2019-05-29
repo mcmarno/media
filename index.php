@@ -76,17 +76,7 @@ if($_SESSION['level']==""){
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Start Header Top Area -->
-    <div class="header-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="logo-area">
-                        <a href="#"><img src="img/a.png" alt="" /></a>
-                    </div>
-                </div>    
-            </div>
-        </div>
-    </div>
+    
     <!-- End Header Top Area -->
     <!-- Mobile Menu start -->
     <?php
@@ -119,6 +109,20 @@ if($_SESSION['level']==""){
             <div class="col-md-3">
             </div>
         </div>
+    </div>
+    <div class="container">
+        <b><center>VISI SMK "Antartika" 1 SIDOARJO</center></b></p>
+    Terwujudnya peserta didik SMK Antartika 1 Sidoarjo yang memiliki budi pekerti luhur, wawasan Imtaq dan Iptek, ketrampilan, jiwa berwirausaha dan mampu bersaing di Era Global.</p>
+    <b><center>MISI SMK "Antartika" 1 SIDOARJO</center></b></p>
+1. Menyiapkan tenaga tingkat menengah yang produktif, adaptif, kreatif serta memiliki jiwa wirausaha sehingga dapat menciptakan lapangan kerja.</p>
+2. Menyiapkan siswa memasuki lapangan kerja, memilih karir, mampu berkompetensi serta mengembangkan jiwa profesional.</p>
+3. Melaksanakan pendidikan dan pelatihan kejuruan yang adaptif, fleksibel, dan berwawasan global.</p>
+4. Mengembangkan potensi sekolah yang bernuansa industri dan mampu bersaing di tingkat Nasional dan Internasional.</p>
+<b><center>TUJUAN SMK "Antartika" 1 SIDOARJO</center></b></p>
+1. Memberikan pembekalan peserta didik keimanan yang kuat serta cinta tanah air guna menghadapi pesaing dari bangsa lain.</p>
+2. Mempersiapkan peserta didik menjadi manusia produktif, mampu bekerja mandiri, dan dapat diserap DU/DI sebagai tenaga kerja tingkat menengah sesuai dengan kompetensi keahlian yang dimilikinya.</p>
+3. Memberikan pembekalan peserta didik agar mampu berkarir, ulet dan giat dalam berkompetisi, mampu beradaptasi di lingkungan kerja dan dapat mengembangkan sikap profesional sesuai kompetensi keahlian yang dimilikinya.</p>
+4. Membekali peserta didik dalam ilmu pengetahuan,teknologi, seni dan wawasan entreuprener agar mampu mengembangkan diri dikemudian hari baik secara mandiri maupun melanjutkan pada jenjang penidikan lebih tinggi.
     </div>
     <div class="footer-copyright-area">
         <div class="container">
@@ -174,11 +178,6 @@ if($_SESSION['level']==""){
     <!-- mCustomScrollbar JS
 		============================================ -->
     <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <!-- jvectormap JS
-		============================================ -->
-    <script src="js/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
-    <script src="js/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <script src="js/jvectormap/jvectormap-active.js"></script>
     <!-- sparkline JS
 		============================================ -->
     <script src="js/sparkline/jquery.sparkline.min.js"></script>
@@ -213,7 +212,6 @@ if($_SESSION['level']==""){
     <script src="js/main.js"></script>
 	<!-- tawk chat JS
 		============================================ -->
-    <script src="js/tawk-chat.js"></script>
     
     <script src="js/owl.carousel.min.js"></script>
     <script src="owl/dist/owl.carousel.js"></script>
