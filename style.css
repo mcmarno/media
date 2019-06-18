@@ -183,11 +183,12 @@ body {}
 /*----------------------------------------*/
 /*  2.  Header Top CSS
 /*----------------------------------------*/
-.footer-copyright-area{
-	background:#00c292;
+.header-top-area, .footer-copyright-area{
+    background:#00c292;
 }
 .logo-area{
 	padding:14px 0px;
+    background:#00c292;
 }
 .nav.navbar-nav.notika-top-nav{
 	float: right;

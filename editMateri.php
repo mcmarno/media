@@ -5,7 +5,7 @@ session_start();
 if($_SESSION['level']==""){
     header("location:login.php");
 }
-if($_SESSION['level']!="admin") {
+if($_SESSION['level']!=("admin" OR "guru")) {
     header("location:login.php");
 }
 ?>
@@ -26,7 +26,7 @@ if($_SESSION['level']!="admin") {
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
 		============================================ -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Bootstrap CSS
         ============================================ -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -110,7 +110,14 @@ if($_SESSION['level']!="admin") {
     <!-- End Header Top Area -->
     <!-- Mobile Menu start -->
     <?php
+    if ($_SESSION['level']=="admin")
+    {
         include("headerAdmin.php");
+    }
+    elseif ($_SESSION['level']=="guru")
+    {
+        include("headerGuru.php");
+    }
     ?>
     <!-- Main Menu area End-->
     <!-- Start Status area -->

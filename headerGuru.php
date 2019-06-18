@@ -1,5 +1,5 @@
 <div class="header-top-area">
-    <img width="2000" height="50" src="images/head.jpg">
+    <img width="2000" src="images/head.jpg">
 </div>
 
     <div class="mobile-menu-area">
@@ -11,9 +11,9 @@
                             <ul class="mobile-menu-nav">
                                 <li><a href="index.php">Home</a>
                                 </li>
-                                <li><a href="tugas.php">Tugas</a>
+                                <li><a href="materi.php">Materi</a>
                                 </li>
-                                <li><a href="about.php">About me</a>
+                                <li><a href="tugas.php">Tugas</a>
                                 </li>
                                 <li><a href="logout.php">Logout</a>
                                 </li>
@@ -32,6 +32,8 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
                         <li><a href="index.php"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li><a href="materi.php"><i class="fa fa-file-text-o"></i> Materi</a>
                         </li>
                         <li><a href="tugas.php"><i class="fa fa-edit"></i> Tugas</a>
                         </li>

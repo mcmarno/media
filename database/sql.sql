@@ -25,11 +25,11 @@ CREATE TABLE `tb_hasil` (
   `no_induk` varchar(5) DEFAULT NULL,
   `file_hasil` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_hasil`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 
 /*Data for the table `tb_hasil` */
 
-insert  into `tb_hasil`(id_hasil,nama_hasil,no_induk,file_hasil) values (5,'dela fuji insani','001','001_dela fuji insani_skck.output.output.pdf');
+insert  into `tb_hasil`(id_hasil,nama_hasil,no_induk,file_hasil) values (6,'tes1','001','001_tes1_Price Action Short-Break Method-BinaryTriumphStrategy (1).pdf');
 
 /*Table structure for table `tb_kamus` */
 
@@ -53,7 +53,7 @@ DROP TABLE IF EXISTS `tb_materi`;
 CREATE TABLE `tb_materi` (
   `id_materi` int(11) NOT NULL AUTO_INCREMENT,
   `nama` varchar(100) DEFAULT NULL,
-  `isi` text,
+  `isi` longtext,
   `youtube` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id_materi`)
 ) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
@@ -77,7 +77,7 @@ CREATE TABLE `tb_siswa` (
 
 /*Data for the table `tb_siswa` */
 
-insert  into `tb_siswa`(id_siswa,no_induk,nama,alamat,tanggal_lahir) values (1,'001','dela fuji insani','jalan. sukarno-hatta No. 2256 dk. pandeyan RT/RW 01/06 , desa Pupus, Kec. Lembeyan, Kab, Magetan, Jawa timur','1997-04-02');
+insert  into `tb_siswa`(id_siswa,no_induk,nama,alamat,tanggal_lahir) values (1,'001','dela fuji','jalan. sukarno-hatta No. 2256 dk. pandeyan RT/RW 01/06 , desa Pupus, Kec. Lembeyan, Kab, Magetan, Jawa timur','2019-04-07'),(2,'002','admin','adminaa','2019-06-20');
 
 /*Table structure for table `tb_tugas` */
 
@@ -104,11 +104,11 @@ CREATE TABLE `tb_users` (
   `password` varchar(100) DEFAULT NULL,
   `level` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`id_user`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 /*Data for the table `tb_users` */
 
-insert  into `tb_users`(id_user,username,password,level) values (1,'admin','8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918','admin'),(8,'001','ed73cc212a67386b413e2f6865bf0260a4a29a240f606982dbcdca57d076c428','siswa');
+insert  into `tb_users`(id_user,username,password,level) values (1,'admin','8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918','admin'),(8,'001','454c90bc50f4ee8185369be49cc279b7013e38a1349d307ec4ce3f2c95b2c96b','siswa'),(10,'guruku','cedab21709b18f5ae37ceab1459959a680a7a7d90a1987c15aeb2e34e705d30a','guru'),(12,'002','8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918','siswa');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
