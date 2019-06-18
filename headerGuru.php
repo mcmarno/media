@@ -37,8 +37,6 @@
                         </li>
                         <li><a href="tugas.php"><i class="fa fa-edit"></i> Tugas</a>
                         </li>
-                        <li><a href="about.php"><i class="fa fa-eye"></i> About me</a>
-                        </li>
                         <li><a href="logout.php"><i class="fa fa-close"></i> Logout</a>
                         </li>
                     </ul>
