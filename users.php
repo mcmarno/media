@@ -75,7 +75,7 @@ if($_SESSION['level']!="admin") {
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <!-- Start Header Top Area -->
+    <!-- Start Header Top Area 
     <div class="header-top-area">
         <div class="container">
             <div class="row">
@@ -86,9 +86,9 @@ if($_SESSION['level']!="admin") {
                 </div>    
             </div>
         </div>
-    </div>
+    </div>-->
     <div class="header-top-area">
-        <img width="2000" height="50" src="images/head.jpg">
+        <img width="2000" height="50" src="images/head.png">
     </div>
     <!-- End Header Top Area -->
     <!-- Mobile Menu start -->

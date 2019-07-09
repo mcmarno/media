@@ -77,16 +77,8 @@ if($_SESSION['level']!="siswa") {
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Start Header Top Area -->
-    <div class="header-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="logo-area">
-                        <a href="#"><img src="img/a.png" alt="" /></a>
-                    </div>
-                </div>    
-            </div>
-        </div>
+     <div class="header-top-area">
+        <img width="2000" height="50" src="images/head.png">
     </div>
     <!-- End Header Top Area -->
     <!-- Mobile Menu start -->
@@ -97,7 +89,7 @@ if($_SESSION['level']!="siswa") {
                     <div class="mobile-menu">
                         <nav id="dropdown">
                             <ul class="mobile-menu-nav">
-                                <li><a href="indexSiswa.php">Home</a>
+                                <li><a href="index.php">Home</a>
                                 </li>
                                 <li><a href="materiSiswa.php">Materi</a>
                                 </li>
@@ -105,7 +97,7 @@ if($_SESSION['level']!="siswa") {
                                 </li>
                                 <li><a href="kamusSiswa.php">Kamus</a>
                                 </li>
-                                <li><a href="aboutSiswa.html">About me</a>
+                                <li><a href="about.php">About me</a>
                                 </li>
                                 <li><a href="logout.php">Logout</a>
                                 </li>
@@ -123,7 +115,7 @@ if($_SESSION['level']!="siswa") {
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
-                        <li><a href="indexSiswa.php"><i class="notika-icon notika-house"></i> Home</a>
+                        <li><a href="index.php"><i class="notika-icon notika-house"></i> Home</a>
                         </li>
                         <li><a href="materiSiswa.php"><i class="notika-icon notika-file"></i> Materi</a>
                         </li>
@@ -131,7 +123,7 @@ if($_SESSION['level']!="siswa") {
                         </li>
                         <li><a href="kamusSiswa.php"><i class="notika-icon notika-form"></i> Kamus</a>
                         </li>
-                        <li><a href="aboutSiswa.html"><i class="notika-icon notika-eye"></i> About me</a>
+                        <li><a href="about.php"><i class="notika-icon notika-eye"></i> About me</a>
                         </li>
                         <li><a href="logout.php"><i class="notika-icon notika-close"></i> Logout</a>
                         </li>
@@ -164,7 +156,7 @@ if($_SESSION['level']!="siswa") {
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="data-table-list">
                         <div class="basic-tb-hd">
-                            <h2>Kamus Komputer dan Jaringan Dasar</h2>
+                            <h2>Kamus Basis Data</h2>
                         </div>
                         <div class="table-responsive">
                             <table id="data-table-basic" class="table table-striped">

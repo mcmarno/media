@@ -79,17 +79,7 @@ if($_SESSION['level']==""){
 
         <!-- End Header Top Area -->
         <!-- Mobile Menu start -->
-        <div class="header-top-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="logo-area">
-                            <a href="#"><img src="img/a.png" alt="" /></a>
-                        </div>
-                    </div>    
-                </div>
-            </div>
-        </div>
+        
         <?php
         if ($_SESSION['level']=="admin")
         {
@@ -128,15 +118,15 @@ if($_SESSION['level']==""){
                 <b><center><font color="blue">VISI SMK "Antartika" 1 SIDOARJO</font></center></b>
                 <p align="justify">Terwujudnya peserta didik SMK Antartika 1 Sidoarjo yang memiliki budi pekerti luhur, wawasan Imtaq dan Iptek, ketrampilan, jiwa berwirausaha dan mampu bersaing di Era Global.</p>
                 <b><center><font color="blue">MISI SMK "Antartika" 1 SIDOARJO</font></center></b>
-                <p align="justify">1. Menyiapkan tenaga tingkat menengah yang produktif, adaptif, kreatif serta memiliki jiwa wirausaha sehingga dapat menciptakan lapangan kerja.</p>
-                <p align="justify">2. Menyiapkan siswa memasuki lapangan kerja, memilih karir, mampu berkompetensi serta mengembangkan jiwa profesional.</p>
-                <p align="justify">3. Melaksanakan pendidikan dan pelatihan kejuruan yang adaptif, fleksibel, dan berwawasan global.</p>
-                <p align="justify">4. Mengembangkan potensi sekolah yang bernuansa industri dan mampu bersaing di tingkat Nasional dan Internasional.</p>
+                <p align="justify">Menyiapkan tenaga tingkat menengah yang produktif, adaptif, kreatif serta memiliki jiwa wirausaha sehingga dapat menciptakan lapangan kerja.</p>
+                <p align="justify">Menyiapkan siswa memasuki lapangan kerja, memilih karir, mampu berkompetensi serta mengembangkan jiwa profesional.</p>
+                <p align="justify">Melaksanakan pendidikan dan pelatihan kejuruan yang adaptif, fleksibel, dan berwawasan global.</p>
+                <p align="justify">Mengembangkan potensi sekolah yang bernuansa industri dan mampu bersaing di tingkat Nasional dan Internasional.</p>
                 <b><center><font color="blue">TUJUAN SMK "Antartika" 1 SIDOARJO</font></center></b>
-                <p align="justify">1. Memberikan pembekalan peserta didik keimanan yang kuat serta cinta tanah air guna menghadapi pesaing dari bangsa lain.</p>
-                <p align="justify">2. Mempersiapkan peserta didik menjadi manusia produktif, mampu bekerja mandiri, dan dapat diserap DU/DI sebagai tenaga kerja tingkat menengah sesuai dengan kompetensi keahlian yang dimilikinya.</p>
-                <p align="justify">3. Memberikan pembekalan peserta didik agar mampu berkarir, ulet dan giat dalam berkompetisi, mampu beradaptasi di lingkungan kerja dan dapat mengembangkan sikap profesional sesuai kompetensi keahlian yang dimilikinya.</p>
-                <p align="justify">4. Membekali peserta didik dalam ilmu pengetahuan,teknologi, seni dan wawasan entreuprener agar mampu mengembangkan diri dikemudian hari baik secara mandiri maupun melanjutkan pada jenjang penidikan lebih tinggi.</p>
+                <p align="justify">Memberikan pembekalan peserta didik keimanan yang kuat serta cinta tanah air guna menghadapi pesaing dari bangsa lain.</p>
+                <p align="justify">Mempersiapkan peserta didik menjadi manusia produktif, mampu bekerja mandiri, dan dapat diserap DU/DI sebagai tenaga kerja tingkat menengah sesuai dengan kompetensi keahlian yang dimilikinya.</p>
+                <p align="justify">Memberikan pembekalan peserta didik agar mampu berkarir, ulet dan giat dalam berkompetisi, mampu beradaptasi di lingkungan kerja dan dapat mengembangkan sikap profesional sesuai kompetensi keahlian yang dimilikinya.</p>
+                <p align="justify">Membekali peserta didik dalam ilmu pengetahuan,teknologi, seni dan wawasan entreuprener agar mampu mengembangkan diri dikemudian hari baik secara mandiri maupun melanjutkan pada jenjang penidikan lebih tinggi.</p>
             </div>
         </div>
         <div class="footer-copyright-area">

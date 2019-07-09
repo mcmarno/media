@@ -1,5 +1,5 @@
 <div class="header-top-area">
-    <img width="2000" height="50" src="images/head.jpg">
+    <img width="2000" height="50" src="images/head.png">
 </div>
 
 <div class="mobile-menu-area">
