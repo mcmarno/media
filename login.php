@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
         ============================================ -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico">
     <!-- Google Fonts
         ============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
@@ -129,7 +129,7 @@
                 <img src="img/logo_umsida.png" width="100" height="100">
             </div>
             <div>
-            <h4>Media Pembelajaran Online Komputer dan Jaringan Dasar</h4>
+            <h4>Media Pembelajaran Online</p> Basis Data</h4>
             </div>
                 <div class="input-group">
                     <span class="input-group-addon nk-ic-st-pro"><i class="notika-icon notika-support"></i></span>
