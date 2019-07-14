@@ -192,7 +192,9 @@ if($_SESSION['level']!=("admin" OR "guru")) {
                                         <i class="notika-icon notika-form"></i>
                                     </div>
                                     <div class="nk-int-st">
-                                        <input type="file" class="form-control" name="upload">
+                                        <input type="file" class="form-control" name="uplod">
+                                    </div>
+                                    <div>
                                         <input type="checkbox" name="ubah_file" value="true"> Ceklis jika ingin mengubah file<br>
                                     </div>
                                 </div>
