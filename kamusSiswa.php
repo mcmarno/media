@@ -302,7 +302,7 @@ if($_SESSION['level']!="siswa") {
     <script src="js/main.js"></script>
 	<!-- tawk chat JS
 		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+    
     <script src="js/data-table/jquery.dataTables.min.js"></script>
     <script src="js/data-table/data-table-act.js"></script>
 </body>

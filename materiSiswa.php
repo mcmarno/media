@@ -297,7 +297,7 @@ if($_SESSION['level']!="siswa") {
       <script src="js/main.js"></script>
 	<!-- tawk chat JS
 		============================================ -->
-        <script src="js/tawk-chat.js"></script>
+        
         <script src="ckeditor/ckeditor.js"></script>
     </body>
 

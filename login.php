@@ -157,8 +157,8 @@
     <script type="text/javascript">
         $.backstretch(
         [
+            "img/log5.jpg",
             "img/log1.jpg",
-            "img/log2.jpg",
             "img/log3.jpg"
         ], 
         {

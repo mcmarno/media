@@ -235,7 +235,7 @@ if($_SESSION['level']!=("admin" OR "guru")) {
     <script src="js/main.js"></script>
 	<!-- tawk chat JS
 		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+    
 </body>
 
 </html>

@@ -225,7 +225,7 @@ if($_SESSION['level']!=("admin" OR "guru")){
     <script src="js/main.js"></script>
 	<!-- tawk chat JS
 		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+   
     <script src="js/data-table/jquery.dataTables.min.js"></script>
     <script type="text/javascript">
         $('#data-table-basic').dataTable( {
